@@ -1,0 +1,88 @@
+* {
+  background-color: rgb(16, 1, 47);
+}
+.container-big {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.App input {
+  background-color: whitesmoke;
+}
+
+.App button {
+  background-color: whitesmoke;
+  margin-left: 20px;
+}
+
+.scroller-bg {
+  height: 7px;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.scroller-bg input {
+}
+.checkbox input {
+  background-color: whitesmoke;
+  margin-left: 20px;
+}
+.checkbox {
+  margin-top: 20px;
+  display: flex;
+}
+.checkbox div {
+  color: whitesmoke;
+}
+.scroller-checkbox {
+  display: flex;
+  align-items: center;
+}
+.scroller-checkbox input {
+}
+.length {
+  color: orange;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+.text {
+  color: whitesmoke;
+  font-family: sans-serif;
+  font-size: xxx-large;
+  font-weight: 600;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 350px;
+}
+.copy-div {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+.copy-div button {
+  font-family: sans-serif;
+  color: rgb(16, 1, 47);
+  border-radius: 20px;
+  width: 150px;
+  height: 40px;
+  font-size: medium;
+  font-weight: 600;
+  cursor: pointer;
+}
+.copy-div button:hover {
+  color: whitesmoke;
+  background-color: rgb(16, 1, 47);
+}
+.copy-div input {
+  width: 500px;
+  height: 30px;
+  border-radius: 5px;
+}
