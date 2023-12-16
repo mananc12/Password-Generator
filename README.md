@@ -32,7 +32,7 @@ This React Password Generator is a simple web application that allows users to g
 3. ```bash
    npm start
    ```
-###Usage
+### Usage
 
 - Open the application in your web browser.
 - Adjust the password length using the slider.
